@@ -1,0 +1,20 @@
+.container-table{
+    width: 700px;
+    margin: 5px;
+    height: fit-content;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+}
+.container-table span{
+   display: block;
+   padding: 5px;
+   margin: 5px;
+   color: gray;
+   font-weight: 500;
+}
+
+.article-right-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,40 @@
+.tableUser {
+  height: auto;
+  flex: 4;
+  box-shadow: 0 0 15px -10px rgba(0,0,0,.75);
+  margin: 20px;
+}
+
+.img-table {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.delete-user-table{
+    color: tomato;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.delete-user-table:hover{
+    transform:scale(1.1)
+}
+
+.edit-user-table{
+    border: none;
+    font-size: .8rem;
+    border-radius: 5px;
+    transition: .5s;
+background-color: lightgreen;
+}
+
+.edit-user-table:hover{
+   background-color: lightskyblue;
+}

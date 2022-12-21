@@ -1,0 +1,10 @@
+@media screen and (min-width: 1200px){
+    .container-home{
+        width: 94%;
+    }
+}
+@media screen and (min-width: 1400px){
+    .container-home{
+        width: 85%;
+    }
+}

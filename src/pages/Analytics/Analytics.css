@@ -1,0 +1,75 @@
+.container-analyc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.7);
+}
+
+.container-analyc > section {
+  padding: 20px 30px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 370px;
+}
+
+.container-analyc > section > div > svg {
+  width: 100%;
+  height: 100%;
+}
+
+.container-analyc > section > div > svg > circle {
+  fill: rgb(240, 240, 255);
+  stroke: rgb(206, 206, 255);
+  stroke-width: 10px;
+  stroke-dasharray: 0 1260px;
+  stroke-dashoffset: 350px;
+  animation: anime 6s linear  forwards ;
+}
+
+@keyframes anime {
+  to {
+    stroke-dasharray: 880px 376px;
+  }
+}
+
+.container-analyc > section:nth-of-type(2) > div > svg > circle{
+    stroke-dashoffset: 150px;
+} 
+
+.detal-svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.7);
+width: 350px;
+}
+
+.detal-svg>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.icon-analyc {
+    padding: 0 5px;
+    color:rgb(170, 170, 254); 
+    
+}
+
+.div-svg{
+    height: 370px;
+}
